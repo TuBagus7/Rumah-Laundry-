@@ -1,17 +1,46 @@
-<h1> LANGKAH DAN CARA INSTALASI WEB RUMAH LANDRY </h1>
+# 📌 Steps and Installation Guide for Rumah Laundry Web with Laragon
 
-- setelah download. extract file zip yang sudah didownload. masukkan kedalam satu folder. dan beri nama rumah_laundry.
-- copy atau cut folder rumah_laundry ke xampp/htdocs/ kemudian paste.
+## 📥 Initial Preparation
+1. **Download & Extract Files**
+   - Download the ZIP file from the repository.
+   - Extract the ZIP file into a folder and name it `rumah_laundry`.
 
-- langkah instalasi
-1. Aktifkan web server bisa menggunakan LAMP, XAMPP, WAMPP, dll.
-	Lalu aktifkan apache dan mysql.
-2. Buka web browser, ketikkan localhost/phpmyadmin pada address bar.
-3. Buat sebuah database dengan nama laundry_app.
-4. Setelah database dibuat, klik database laundry_app.
-5. Import file sql dengan cara klik menu/tab impor pada bagian atas phpmyadmin.
-6. klik Choose file, lalu cari file laundry_app.sql yang sudah disediakan, terakhir klik tombol kirim/go (scroll ke bawah).
-7. Buka tab baru pada web browser kemudian ketikkan localhost/rumah_laundry/
-8. Terakhir, login terlebih dahulu isi username dan password:
-   username: admin
-   password: admin
+2. **Move the Folder to Laragon**
+   - Copy or Cut the `rumah_laundry` folder into the `C:\laragon\www\` directory.
+
+---
+
+## 🚀 Installation Steps
+
+### 1️⃣ Start the Web Server
+- Ensure Laragon is installed on your computer.
+- Open **Laragon**, then **Start All** to activate Apache and MySQL.
+
+### 2️⃣ Create a Database
+- Open a browser and go to **`localhost/phpmyadmin`**.
+- Click **New** to create a new database named **`laundry_app`**.
+
+### 3️⃣ Import the Database
+- Select the **`laundry_app`** database.
+- Click the **Import** menu at the top.
+- Click **Choose File**, find the **`laundry_app.sql`** file, then click **Go/Submit**.
+
+### 4️⃣ Run the Application
+- Open a new tab in the browser.
+- Type **`localhost/rumah_laundry/`** and press **Enter**.
+
+### 5️⃣ Login to the Application
+| Username | Password |
+|----------|----------|
+| admin    | admin    |
+
+🎉 **Done! The Rumah Laundry application is now ready to use!** 🚀
+
+---
+
+## 📌 Important Notes
+- Ensure Laragon is in **Full** mode for all features to work properly.
+- If you encounter any errors, try restarting Laragon or check the database configuration.
+
+🔹 **Happy Coding!** 💻🎨
+

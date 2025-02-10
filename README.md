@@ -1,5 +1,10 @@
 # 📌 Steps and Installation Guide for Rumah Laundry Web with Laragon
 
+<p align="center">
+  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap Logo" width="100">
+  <img src="https://www.php.net/images/logos/php-logo.svg" alt="PHP Logo" width="120">
+</p>
+
 ## 📥 Initial Preparation
 1. **Download & Extract Files**
    - Download the ZIP file from the repository.
